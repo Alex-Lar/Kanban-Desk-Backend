@@ -2,7 +2,11 @@
   "name": "backend",
   "private": "true",
   "version": "0.0.0",
+  "scripts": {
+    "format": "prettier --log-level warn --cache --write '{src/**/*,*}.{ts,tsx,js,json,yml,scss}' '!**/{node_modules,dist}/**/*'"
+  },
   "devDependencies": {
+    "prettier": "^3.5.3",
     "typescript": "^5.8.2"
   }
 }
