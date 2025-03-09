@@ -4,7 +4,7 @@
     "transpileOnly": true
   },
   "compilerOptions": {
-    "allowJs": true,
+    "allowJs": false,
     "downlevelIteration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
